@@ -1,0 +1,216 @@
+* {
+
+}
+.articleSection {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  background-color: lightgrey;
+}
+.myArticle {
+  margin: 0px 20px 20px 20px;
+  font-family: 'Nosifer', cursive;
+}
+.otherLinks-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: black;
+  flex: 0 0 300px;
+  border-radius: 10px;
+  background-color: grey;
+  padding: 10px 0px;
+}
+.otherLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: transparent;
+}
+.navigation div:nth-child(2) {
+  /* border: none;
+  border-bottom: 1px solid black; */
+}
+.otherLinks > a {
+  padding: 0px 7px;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+.readAlso {
+  background-color: transparent;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 25px;
+}
+.myArticle {
+  flex: 1;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+.myArticle > p {
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+.articleTitle2 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding: 20px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(rgba(2, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../Images/backMain.jpg) center no-repeat;
+  background-size: cover;
+  height: 25vh;
+  color: white;
+}
+.left-right {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: lightgrey;
+}
+.topArticle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  padding: 20px;
+}
+.date {
+  margin-left: auto;
+}
+.postedBy {
+  margin-left: 10px;
+}
+.articleTitle {
+}
+.articleBody {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+border-radius: 10px;
+}
+.articleBody > p {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6em;
+}
+.topArticle > p {
+  color: white;
+  animation-name: example;
+  animation-duration: infinity;
+}
+.postedBy:hover, .date:hover, .topArticle > a > img:hover {
+  /* transform: rotate(-30deg); */
+  transition: 1s;
+  cursor: pointer;
+  animation-name: example;
+  animation-duration: infinity;
+}
+/* @keyframes example {
+  0%{transform: rotate(-30deg)}
+  100%{transform: rotate(30deg)}
+} */
+.topArticle > p > a {
+  background-color: grey;
+  color: yellow;
+}
+.topArticle > p > span {
+  color: yellow;
+  background-color: transparent;
+}
+.topArticle > a {
+  background-color: transparent;
+}
+.topArticle > a > img {
+  width: 60px;
+  border-radius: 50%;
+  background-color: grey;
+}
+.artSide {
+  margin: 5px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  width: 300px;
+}
+.artSide:hover {
+  boder: 2px solid #0e76a8;
+}
+.artSide > a > img {
+  width: 300px;
+  height: 150px;
+  overflow: hidden;
+  transition: transform .5s ease;
+}
+.artSide > a > img:hover {
+  transform: scale(0.98);
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+.artSide > a {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.articleTitle {
+  margin: 0px;
+}
+@media only screen and (max-width: 800px) {
+  .myArticle {
+    flex: 0 0 95%;
+  }
+  .otherLinks-1 {
+    flex: 0 0 90%;
+  }
+  .artSide > a > img {
+    width: 300px;
+  }
+}
+#share-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.shareText {
+  font-weight: bold;
+  font-size: 25px;
+}
+#share-buttons img {
+  width: 35px;
+  padding: 5px;
+  padding: 20px 5px;
+  border-bottom: 2px solid grey;
+}
+#share-buttons img:hover {
+  border-bottom: 2px none grey;
+}
+.sharing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+*
